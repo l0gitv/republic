@@ -1,10 +1,10 @@
-name : esmpio workflow 
+name : Esmpio workflow 
 on :[push]
 
 jobs:
   build:
     runs-on: ubuntu-lastest
     steps:
-    - uses: actions/chacput@2
+    - uses: actions/chackout@2
     - name: Run a online_line script
       run: echo Hello, word!
