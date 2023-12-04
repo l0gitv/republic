@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-lastest
     steps:
     - uses: actions/chackout@2
-    - name: Run a online_line script
+    - name: Run a online-line script
       run: echo Hello, word!
